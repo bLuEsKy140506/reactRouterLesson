@@ -25,10 +25,10 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="sign-up" element={<SignUp />} />
       <Route path="articles" element={<Articles />} />
-      {/* <Route path="articles/:id" element={<Article />} /> */}
+      <Route path="articles/:title" element={<Article />} />
       <Route path="categories" element={<Categories />} />
       {/* <Route path="categories/:id" element={<Category />} /> */}
-      <Route path="authors/:id" element={<Author />} />
+      <Route path="authors/:name" element={<Author />} />
       <Route path="profile" element={<Profile />} />
       {/* Add Routes here! */}
     </Route>
